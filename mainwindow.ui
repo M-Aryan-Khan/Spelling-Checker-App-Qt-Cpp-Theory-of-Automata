@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1647</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:century gothic;
+}
+#frame {
+background-color: rgba(0,0,0,198);
+border:none;
+border-radius:15px;
+}
+#centralwidget{background-image: url(&quot;C:/Users/Lenovo/Documents/TOA/bggg.png&quot;);
+}
+#label,#label_2,#label_3,#label_4,#label_5{
+color:white;
+background: none;
+font-size:44px;
+text-align:center;
+}
+#label_2{
+font-size:35px;
+}
+#label_3,#label_4,#label_5{
+font-size:40px;
+}
+#p1,#p2,#p3{
+border:none;
+border-radius:50px;
+background:red;
+}
+#p1{
+background-image: url(&quot;C:/Users/Lenovo/Documents/TOA/man.png&quot;);
+background-repeat: no;
+background-position: center;
+}
+#p2{
+background:orange;
+background-image: url(&quot;C:/Users/Lenovo/Documents/TOA/woman.png&quot;);
+background-repeat: no;
+background-position: center;
+}
+#p3{
+background:light green;
+background-image: url(&quot;C:/Users/Lenovo/Documents/TOA/man.png&quot;);
+background-repeat: no;
+background-position: center;
+}
+#start{
+font-size:30px;
+background-color: white; 
+color: black; 
+border: 2px solid #f44336;
+border-radius: 15px;
+}
+#start:hover{
+background-color:red;
+color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>79</y>
+      <width>671</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>671</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SPELLING CHECKER</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>671</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BY</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>160</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>M. Aryan Khan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>400</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>M. Anas Malik</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>280</y>
+       <width>301</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Warisha Siddiqui</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>150</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>265</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>380</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>man.png</normaloff>man.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="start">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>530</y>
+       <width>391</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
